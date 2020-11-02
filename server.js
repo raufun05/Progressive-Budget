@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const compression = require("compression");
 
 
-const PORT = 5000;
+var PORT = process.env.PORT || 5000;
 
 const app = express();
 
@@ -25,6 +25,7 @@ mongoose.connect(
     useFindAndModify: false
   }
 );
+
 
 // mongoose.connect("mongodb://localhost/budget", {
 //   useNewUrlParser: true,

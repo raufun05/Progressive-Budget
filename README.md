@@ -59,6 +59,9 @@ THEN that will be shown on the page, and added to their transaction history when
 
   * the URL to the deployed application
 
+  https://evening-brook-70960.herokuapp.com/
+
   * the URL to the Github repository
+  
   https://github.com/raufun05/Progressive-Budget
 
