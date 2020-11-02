@@ -5,6 +5,7 @@ const indexedDB =
   window.msIndexedDB ||
   window.shimIndexedDB;
 
+  
 let db;
 const request = indexedDB.open("budget", 1);
 
