@@ -10,7 +10,6 @@ var FILES_TO_CACHE = [
     
     // '/models/transaction.js',
     // '/../models/transaction.js'
-  
   ];
   
   const CACHE_NAME = "static-cache-v2";
